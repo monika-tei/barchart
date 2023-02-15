@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#bars {
+  display: flex;
+  width: 100vw;
+  transform: rotate(180deg);
+  overflow: hidden;
+}
+
+.bar {
+  background-color: cornflowerblue;
+  border: 1px solid royalblue;
+  width: 100px;
+  height: 400px;
+  margin-right: 5px;
+}
